@@ -19,3 +19,23 @@ Java SE Development Kit 8
 $ javac main/main.java
 $ java main/NRICValidator <NRIC NUMBER>
 ```
+
+## Personal Data Protection Act
+
+The project NRICValidator created by Aaron Teo does not create any incoming or outgoing connection to the Internet. Therefore, the NRIC numbers you provide will not be stored anywhere.
+
+### For Linux Systems
+
+If you would like to completely clear your usage, please run the following command:
+
+```
+history -c
+```
+
+And verify that your NRIC numbers are cleared by running:
+
+```
+history
+```
+
+&copy; Aaron Teo, 2020
