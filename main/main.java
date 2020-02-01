@@ -2,7 +2,6 @@
 
 package main;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -17,6 +16,7 @@ class NRICValidator {
 
     return sum;
   }
+
   public static void main(String[] args) {
     if (args.length < 1) {
       System.err.println("No arguments specified!");
